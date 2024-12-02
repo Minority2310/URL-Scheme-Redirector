@@ -11,5 +11,5 @@ To deploy to Cloudflare Pages:
 6. Configure your build settings:
    - Build command: `npm run build`
    - Build output directory: `dist`
-   - Node.js version: 18 (or your preferred version)
+   - Add environment variable: Name: `NODE_VERSION` Value: `18`
 7. Deploy!
